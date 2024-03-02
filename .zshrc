@@ -105,3 +105,4 @@ alias sh=sh
 alias glog='git log --oneline ./'
 alias glog-release='git log --pretty=format:"%h%x09%an%x09%ad%x09%s" ./'
 alias gpush='git push origin "$(git symbolic-ref --short HEAD)"'
+alias gcom='git commit -m '

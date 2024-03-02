@@ -13,6 +13,9 @@ sudo apt install build-essential
 echo "Enter Your Git Name: "
 read git_name
 git config --global user.name ${git_name}
+echo "Enter Your Git Email: "
+read git_email
+git config --global user.email ${git_email}
 git config --global core.pager cat
 
 ####################
